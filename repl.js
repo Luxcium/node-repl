@@ -47,6 +47,7 @@ const puppetUrl = async (myUrl='https://www.google.com') => {
    console.dir(myRepl.context.document)
    // await page.screenshot({ path: 'example.png' });
    // await browser.close();
+   return 0
 };
 
 const myRepl = repl.start({
@@ -60,10 +61,20 @@ const myRepl = repl.start({
 function initializeContext() {
    myRepl.prompt();
 
+   // (async () => {
+   //    const browser = await puppeteer.launch();
+   //    const page = await browser.newPage();
+   //    await page.goto('https://example.com');
+   //    await page.screenshot({path: 'example.png'});
+
+   //    await browser.close();
+   //  })();
+
    myRepl.context.C = chalk
    myRepl.context.D = JSDOM
    myRepl.context.L = lodash
    myRepl.context.P = puppeteer
+   myRepl.context.puppeteer = puppeteer
    myRepl.context.Q = jquery
    myRepl.context.R = ramda
    myRepl.context.S = sanctuary
@@ -76,6 +87,7 @@ function initializeContext() {
    myRepl.context.info = console.info
    myRepl.context.log = console.log;
    myRepl.context.myPup = puppetUrl
+   myRepl.context.puppetUrl = puppetUrl
    myRepl.context.qtApi = qtApi
    myRepl.context.qtToken = () => readFileSync(`${process.env.HOME}/tokQT.env`, 'utf8')
    // myRepl.context.startQtApi = () => {
@@ -107,6 +119,7 @@ myRepl.setupHistory(historyPath, (err,nodeRepl)=>{
    initializeContext()
 })
 // myRepl
+
 
 
 
