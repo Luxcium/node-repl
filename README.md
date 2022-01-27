@@ -8,29 +8,55 @@ This project is for my personal use, it is not currently maintained in a way tha
 
 ### Use what can be useful to you
 
-Regardless feel free to grab what can be useful to you for your personal projects or open source projects. Some parts of this work are under Mozilla Public License, v. 2.0. and other parts are under MIT the use of any part of code should be flexible for you and for people using the code you produce in all cases please state `Copyright (c) 2019-present Benjamin Vincent Kasapoglu` and when possible please list the changes you made from this current work...
+Regardless feel free to grab what can be useful to you for your personal projects. In all cases please state `Copyright (c) 2019-present Benjamin Vincent Kasapoglu` and when possible please list the changes you made from this current work...
 
 ## Report bugs, problems and security issues
 
 Please open a pull request to correct small bugs or any security issues or to fix compatibilities issues...
 If possible plesae first open an [issue](https://github.com/Luxcium/ahmyzsh/issues) to describe the probleme...
-Then open a pull request that fixes the issue...
+Then open a pull request that fixes the issue if you want to...
 
 ## Workflows and branch
 
+**This information is deprecated and will be updated soon (probaly)**
 I use a different branch for each of my computers (or workflows). I am using the [luxcium](https://github.com/Luxcium/ahmyzsh/tree/luxcium) branch on my macOS and [pc-master-race](https://github.com/Luxcium/ahmyzsh/tree/pc-master-race) branch fo my WSL on windows and now my main computer is using fedora so I am using the [fedora-working-station](https://github.com/Luxcium/ahmyzsh/tree/fedora-working-station) as my main development branch...
 
+## **NO** PERMISSION GRANTED LUXCIUM LICENSE 
 
-## THESES FILES CANNOT BE USED `AS IS`
+```bash
+#$ LUXCIUM LICENSE *NO* PERMISSION GRANTED - PROVIDED "AS IS" - WITHOUT WARRANTY
+#$
+#% Copyright © 2019 - 2022 LUXCIUM† (Benjamin Vincent Kasapoglu) <luxcium@neb401.com>
+#&
+#& *NO* PERMISSION ARE GRANTED. NOT TO PUBLISH, NOT TO DISTRIBUTE, NOT TO
+#& SUBLICENSE, AND/OR NOT TO SELL COPIES OF THE SOFTWARE.
+#& YOU MAY USE IT ONLY FOR YOURSELF AND YOU HAVE THE RIGHT TO: DISTRIBUTE TO
+#& YOUR FRIENDS, TO YOUR STUDENTS OR CLASSEMATES, OR TO YOU COWORKER FOR PERSONAL USE AT HOME
+#& AT SCHOOL OR AT WORK.
+#&
+#% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ALL KIND, EXPRESS OR
+#% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+#% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+#% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ALL CLAIM, DAMAGES OR OTHER
+#% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+#% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+#% SOFTWARE.
+#&
+#& IN ANY CASES THE COPYRIGHT AND NOTICE ABOVE MUST BE INCLUDED.
+#$
+#$ Scientia es lux principium✨ ™
+```
 
-Consider the folowing text as being part of each files you get from this repo. Files or part of code under MIT liscense will be taged accordingly:
+## THESES FILES **CANNOT** BE USED `AS IS`
+
+Consider the folowing text as being part of each files you get from this repo. 
 
 ```shell
 ################################################################################
 ##                                                                            ##
 ##              !!! PLEASE USE CAUTION WHEN USING THIS FILE !!!               ##
 ##                                                                            ##
-##  THIS FILE CANNOT BE USED AS IS YOU MAY HAVE TO CUSTOMISE IT TO USE IT.    ##
+##  THIS FILE CANNOT BE USED AS IS YOU MAY HAVE TO CUSTOMIZE IT TO USE IT.    ##
 ##  Even if this file is shared on my public git hub it has not been designed ##
 ##  for public use. It was not created with the idea that someone else would  ##
 ##  be using it. The files in this repository have been created for my usage  ##
@@ -38,33 +64,15 @@ Consider the folowing text as being part of each files you get from this repo. F
 ##  I decided to put them in the public space so anyone can download them     ##
 ##  and edit them. I hope this can inspire someone or serve as a reference.   ##
 ##                                                                            ##
-#+           Copyright (c) 2019-present Benjamin Vincent Kasapoglu            ##
+#+             Copyright (c) 2019-2022 Benjamin Vincent Kasapoglu             ##
 #&                                                                            ##
-#&     This Source Code Form is subject to the terms of the Mozilla Public    ##
-#&     License, v. 2.0. If a copy of the MPL was not distributed with this    ##
-#&           file, You can obtain one at http://mozilla.org/MPL/2.0/.         ##
-#&                                                                            ##
-##     The above copyright notice and this license notice shall be included   ##
-##           in all copies or substantial portions of the Software.           ##
-##                                                                            ##
 ################################################################################
 ```
 
-## Disclaimer of Warranty
+## Disclaimer of Warranty (NONE)
 
 ```bash
-##!!0###########################################################################
-##!!                                                                          ##
-#+!!         Copyright (c) 2019-present Benjamin Vincent Kasapoglu            ##
-#&!!                                                                          ##
-#&!!   This Source Code Form is subject to the terms of the Mozilla Public    ##
-#&!!   License, v. 2.0. If a copy of the MPL was not distributed with this    ##
-#&!!         file, You can obtain one at http://mozilla.org/MPL/2.0/.         ##
-#&!!                                                                          ##
-##!!   The above copyright notice and this license notice shall be included   ##
-##!!         in all copies or substantial portions of the Software.           ##
-##!!                                                                          ##
-##!!          ------------------------------------------------------          ##
+################################################################################
 ##!!                                                                          ##
 ##!!    Disclaimer of Warranty                                                ##
 ##!!   -------------------------                                              ##
