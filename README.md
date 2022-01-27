@@ -69,7 +69,7 @@ Consider the folowing text as being part of each files you get from this repo.
 ################################################################################
 ```
 
-## Disclaimer of Warranty (NONE)
+## Disclaimer of Warranty
 
 ```bash
 ################################################################################
