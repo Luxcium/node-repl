@@ -1,10 +1,9 @@
 /** @format */
-
-var repl = require('repl');
+var repl = require('node:repl');
 var net = require('net');
 
 net
-  .createServer(function(socket) {
+  .createServer(function (socket) {
     var r = repl.start({
       prompt: 'socket ' + socket.remoteAddress + ':' + socket.remotePort + '> ',
       input: socket,
@@ -12,7 +11,7 @@ net
       terminal: true,
       useGlobal: false,
     });
-    r.on('exit', function() {
+    r.on('exit', function () {
       socket.end();
     });
     r.context.socket = socket;
